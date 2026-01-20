@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>O. Monroy Dev</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="page">
+    <main class="main">
+      <section class="about" id="aboutme" aria-label="About me">
+        <div class="about__grid">
+          <!-- IZQUIERDA ARRIBA -->
+          <article class="card card--left-top">
+            <p class="kicker">About Me</p>
+            <h2 class="title">
+              Hello!, i'm <span class="title__accent">Oscar Monroy</span>
+            </h2>
+            <p class="text text--muted">
+              <strong>Full Stack</strong> Developer. I enjoy designing visually
+              appealing websites and exploring innovative ideas.
+            </p>
+          </article>
+          <!-- IZQUIERDA MEDIO -->
+          <article class="card card--left-mid card--tall">
+            <p class="kicker">MY stack</p>
+
+            <ul class="list list--stack">
+              <li
+                class="list__item stack-item"
+                data-tools="CURRENTLY LEARNING • REACT •"
+              >
+                <span>Front-end</span>
+                <span class="tag">HTML, CSS, JS</span>
+              </li>
+
+              <li
+                class="list__item stack-item"
+                data-tools="CURRENTLY LEARNING • NODE.JS • JAVA •"
+              >
+                <span>Back-end</span>
+                <span class="tag">JS, JAVA</span>
+              </li>
+
+              <li
+                class="list__item stack-item"
+                data-tools="CURRENTLY LEARNING • MONGODB •"
+              >
+                <span>DB</span>
+                <span class="tag">SQL</span>
+              </li>
+
+              <li
+                class="list__item stack-item"
+                data-tools="&& • FIGMA • IA TOOLS•"
+              >
+                <span>Extras</span>
+                <span class="tag">GIT & GITHUB</span>
+              </li>
+            </ul>
+          </article>
+
+          <!-- IZQUIERDA ABAJO -->
+          <article class="card card--left-bot">
+            <p class="kicker">Dato curioso</p>
+            <p class="quote">
+              “Puedo pasar horas puliendo micro-interacciones… y luego celebrar
+              con café como si fuera un deploy exitoso.”
+            </p>
+            <p class="text text--muted text--spaced">
+              También me encanta automatizar tareas repetitivas (sí, incluso las
+              pequeñas).
+            </p>
+          </article>
+
+          <!-- CENTRO (CARD GRANDE) -->
+          <article class="card card--center">
+            <nav class="nav" aria-label="Navegación">
+              <a class="nav__link" href="#aboutme">Home</a>
+              <a class="nav__link" href="#aboutme">Story</a>
+              <a class="nav__link" href="#aboutme">Gallery</a>
+              <a class="nav__link" href="#aboutme">Projects</a>
+            </nav>
+
+            <div class="headline">
+              <p class="kicker">And this is me</p>
+              <h3 class="headline__big">
+                Diseño, código<br />y obsesión por el detalle.
+              </h3>
+              <p class="headline__text">
+                Me gusta convertir ideas en interfaces fluidas y sistemas
+                sólidos. Si algo se puede medir, se puede mejorar (y si se puede
+                mejorar, lo optimizo).
+              </p>
+            </div>
+
+            <!-- IMAGEN ABSOLUTA (PNG sin card, drop-shadow por silueta) -->
+            <figure class="me" aria-label="Foto personal">
+              <img
+                class="me__img"
+                src="./images/mydesignV2.png"
+                alt="Foto de Oscar"
+              />
+              <figcaption class="me__caption">Hi!, Oscar here</figcaption>
+            </figure>
+
+            <!-- Parte inferior del centro -->
+            <div class="center-bottom">
+              <div class="mini">
+                <span class="pill">Enfocado en</span>
+                <div class="bar" aria-label="Progreso">
+                  <span class="bar__fill"></span>
+                </div>
+              </div>
+
+              <div class="mini">
+                <span class="pill">Ahora</span>
+                <span class="text text--muted"
+                  >Construyendo un portafolio con animaciones suaves</span
+                >
+              </div>
+            </div>
+          </article>
+
+          <!-- DERECHA ARRIBA -->
+          <article class="card card--right-top card--accent">
+            <p class="kicker">Mi canción favorita</p>
+            <h3 class="subtitle">🎧 “(Tu canción aquí)”</h3>
+            <p class="text text--muted">
+              La pongo cuando estoy en modo concentración o arreglando bugs
+              imposibles.
+            </p>
+          </article>
+
+          <!-- DERECHA MEDIO -->
+          <article class="card card--right-mid card--tall">
+            <p class="kicker">Frase de libro favorita</p>
+            <p class="quote">
+              “No tienes que verlo todo claro para dar el siguiente paso.”
+            </p>
+            <p class="text text--muted text--spaced">
+              (Cámbiala por una cita real de tu libro favorito.)
+            </p>
+          </article>
+
+          <!-- DERECHA ABAJO -->
+          <article class="card card--right-bot">
+            <p class="kicker">Mini perfil</p>
+            <ul class="list">
+              <li class="list__item">
+                <span>Aprendiendo</span> <span class="tag">TypeScript</span>
+              </li>
+              <li class="list__item">
+                <span>Me gusta</span> <span class="tag">UI/UX</span>
+              </li>
+              <li class="list__item">
+                <span>Hobby</span> <span class="tag">Fotografía</span>
+              </li>
+              <li class="list__item">
+                <span>Meta</span> <span class="tag">Lanzar SaaS</span>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
