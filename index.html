@@ -62,35 +62,39 @@
 
           <!-- IZQUIERDA ABAJO -->
           <article class="card card--left-bot">
-            <p class="kicker">Dato curioso</p>
-            <p class="quote">
-              “Puedo pasar horas puliendo micro-interacciones… y luego celebrar
-              con café como si fuera un deploy exitoso.”
-            </p>
+            <p class="kicker">An Interesting fact</p>
             <p class="text text--muted text--spaced">
-              También me encanta automatizar tareas repetitivas (sí, incluso las
-              pequeñas).
+              I had the blessed opportunity to serve as a military paratrooper
+              and proudly recite:
+            </p>
+            <p class="quote">
+              “Thank you, Lord, for choosing me as one of Your children to be a
+              paratrooper, because when I throw my body into the void, I feel
+              closer to You…”
             </p>
           </article>
 
           <!-- CENTRO (CARD GRANDE) -->
           <article class="card card--center">
-            <nav class="nav" aria-label="Navegación">
-              <a class="nav__link" href="#aboutme">Home</a>
-              <a class="nav__link" href="#aboutme">Story</a>
-              <a class="nav__link" href="#aboutme">Gallery</a>
-              <a class="nav__link" href="#aboutme">Projects</a>
-            </nav>
-
+            <div class="content__nav">
+              <nav class="nav" aria-label="Navegación">
+                <a class="nav__link" href="#aboutme">Home</a>
+                <a class="nav__link" href="#aboutme">Story</a>
+                <a class="nav__link" href="#aboutme">Gallery</a>
+                <a class="nav__link" href="#aboutme">Projects</a>
+              </nav>
+            </div>
             <div class="headline">
               <p class="kicker">And this is me</p>
               <h3 class="headline__big">
-                Diseño, código<br />y obsesión por el detalle.
+                Code, Design<br />& a passion for attention to detail.
               </h3>
               <p class="headline__text">
-                Me gusta convertir ideas en interfaces fluidas y sistemas
-                sólidos. Si algo se puede medir, se puede mejorar (y si se puede
-                mejorar, lo optimizo).
+                I’ve enjoyed coding since I was 15, and although I trained
+                professionally as a military officer in Mexico, over the past
+                few months I’ve been getting back into my web development
+                career. I’m excited to create experiences through the websites I
+                build.
               </p>
             </div>
 
@@ -101,22 +105,28 @@
                 src="./images/mydesignV2.png"
                 alt="Foto de Oscar"
               />
-              <figcaption class="me__caption">Hi!, Oscar here</figcaption>
+              <figcaption class="me__caption">Hi there!, Oscar here</figcaption>
             </figure>
 
             <!-- Parte inferior del centro -->
             <div class="center-bottom">
               <div class="mini">
-                <span class="pill">Enfocado en</span>
+                <ul class="list list--stack list-center">
+                   <li  class="list__item stack-item" data-tools="Chasing my goals">
+                    <span class="" >Focused</span>
+                   </li>
+                   <span class="text text--muted"
+                  >Studying and Learning</span>
                 <div class="bar" aria-label="Progreso">
                   <span class="bar__fill"></span>
                 </div>
               </div>
 
               <div class="mini">
-                <span class="pill">Ahora</span>
+                <span class="pill">Now</span>
                 <span class="text text--muted"
-                  >Construyendo un portafolio con animaciones suaves</span
+                  >Collaborating on Kin Conecta - Social Network for
+                  tourists</span
                 >
               </div>
             </div>
@@ -124,40 +134,54 @@
 
           <!-- DERECHA ARRIBA -->
           <article class="card card--right-top card--accent">
-            <p class="kicker">Mi canción favorita</p>
-            <h3 class="subtitle">🎧 “(Tu canción aquí)”</h3>
+            <p class="kicker">Favorite Song</p>
+            <a
+              href="https://open.spotify.com/intl-es/track/1xsYj84j7hUDDnTTerGWlH?si=b3b9ef3ab73f4188"
+              class="favoritesong"
+              ><h3 class="subtitle">🎧 “(Dream on - Aerosmith)”</h3></a
+            >
             <p class="text text--muted">
-              La pongo cuando estoy en modo concentración o arreglando bugs
-              imposibles.
+              My favorite song changes every week, but this week it's this one.
             </p>
           </article>
 
           <!-- DERECHA MEDIO -->
           <article class="card card--right-mid card--tall">
-            <p class="kicker">Frase de libro favorita</p>
+            <p class="kicker">Favorite book quote:</p>
             <p class="quote">
-              “No tienes que verlo todo claro para dar el siguiente paso.”
+              “Concentrate every minute on doing what’s in front of you with
+              precise and genuine seriousness, with love, freedom, and justice,
+              and make time to free yourself from all other distractions.”
             </p>
             <p class="text text--muted text--spaced">
-              (Cámbiala por una cita real de tu libro favorito.)
+              -Marcus Aurelius (Meditations)
             </p>
           </article>
 
           <!-- DERECHA ABAJO -->
           <article class="card card--right-bot">
-            <p class="kicker">Mini perfil</p>
-            <ul class="list">
-              <li class="list__item">
-                <span>Aprendiendo</span> <span class="tag">TypeScript</span>
+            <p class="kicker">Mini Profile</p>
+            <ul class="list list--stack">
+              <li
+                class="list__item stack-item"
+                data-tools="To improve my front-end skills"
+              >
+                <span>Learning</span> <span class="tag">React & Java</span>
               </li>
-              <li class="list__item">
-                <span>Me gusta</span> <span class="tag">UI/UX</span>
+              <li class="list__item stack-item" data-tools="Only for fun">
+                <span>I Like</span> <span class="tag">Programming</span>
               </li>
-              <li class="list__item">
-                <span>Hobby</span> <span class="tag">Fotografía</span>
+              <li
+                class="list__item stack-item"
+                data-tools="And y like sports and movies"
+              >
+                <span>Hobbies</span> <span class="tag">Read & learn</span>
               </li>
-              <li class="list__item">
-                <span>Meta</span> <span class="tag">Lanzar SaaS</span>
+              <li
+                class="list__item stack-item"
+                data-tools="I want to build some SaaS's"
+              >
+                <span>Goal</span> <span class="tag">Create a SaaS</span>
               </li>
             </ul>
           </article>

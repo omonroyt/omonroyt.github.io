@@ -304,6 +304,7 @@
 
 .nav {
   display: flex;
+  justify-content: center;
   gap: 16px;
   flex-wrap: wrap;
   font-size: 12px;
@@ -353,7 +354,7 @@
   max-width: 45ch;
 }
 
-/* IMAGEN ABSOLUTA (PNG sin card; sombra por silueta con drop-shadow) */
+/* MAINPART*/
 .me {
   position: absolute;
   left: 54%;
@@ -457,6 +458,9 @@
 .mini:hover {
   transform: translateY(-2px);
   border-color: color-mix(in srgb, var(--accent) 22%, transparent);
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .pill {
@@ -493,6 +497,10 @@
     color-mix(in srgb, var(--accent) 90%, white 10%),
     color-mix(in srgb, var(--accent2) 85%, black 15%)
   );
+}
+.favoritesong {
+  text-decoration: none;
+  color: inherit;
 }
 
 /* CARD ACENTO (derecha arriba) */
@@ -566,6 +574,7 @@
 
   .center-bottom {
     grid-template-columns: 1fr;
+    top: 800px;
   }
 }
 
